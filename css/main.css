@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Amiri+Quran&family=Amiri:ital@1&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Amiri+Quran&family=Amiri:ital@1&family=Dancing+Script&family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+.header .navbar .logo img{
+    width: 50%;
+}
+.navbar{
+    /* background-color: teal; */
+    /* display: flex; */
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.header .navbar .nav ul li a{
+    font-family: alegreya;
+    font-size: 20px;
+    font-weight: 400px;
+    height: 33.48px;
+    color: rgb(255,255,255);
+}
+.header .navbar .nav ul li:hover a{
+    text-decoration:overline;
+    /* text-decoration-color:orange ; */
+    border-top: 1px solid orange;
+    color: olive;
+}
+.header .navbar .nav ul{
+    list-style-type: none;
+    /* display: flex; */
+    justify-content: space-around;
+    width: 515px;
+}
+.nav{
+    margin-right: 100px;
+}
+.header{
+    background-image: url('shutterstock_277750193.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header .overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.header .overlay {
+    text-align: center;
+}
+.header .header-content{
+    text-align: center;
+    margin-top:50px ; 
+    display: inline-block; 
+}
+
+.header .header-content h2{
+    font-size: 3rem;
+    color:white;
+    font-family: alegreya;
+    margin-bottom: 30px;
+}
+.header .header-content p{
+    font-size: 1.5rem;
+    color:white;
+    font-family: Dancing Script;
+    margin-bottom: 30px;
+}
+.header .header-content button{
+    padding: 15px 30px;
+    font-size: 16px;
+    box-sizing: 0px;
+    border-radius: 5px;
+}
+.header-content .learn-more{
+    background-color:#c1ab84 ;
+    color:#fff;
+    cursor: pointer ;
+}
+.learn-more:hover{
+    background-color: #fff;
+    color:black;
+}
+.home .dec h2{
+    font-family:alegreya ;
+    color: rgb(37, 48, 72);
+    font-size: 2rem;
+}
+.home{
+    /* display: flex;
+     background-size:cover; 
+    margin-top:50px ; */
+    /* display: flex; */
+    width: 100%;
+    position: relative;
+    left: -76.8px;
+    box-sizing: border-box;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    padding-left: 76.8px;
+    padding-right: 77.2px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    background-size: cover;
+}
+.home .dec h3{
+    font-family: Dancing Script;
+    color: rgb(193, 171, 132)  ;
+    font-size: 28px;
+}
+.home .dec p{
+    font-family: alegreya;
+    font-size: 18px;
+}
+.home .dec ul li p{
+    list-style: none;
+    padding: 16px 0;
+    position: relative;
+    padding-left: 52px;
+}
+.home .dec ul {
+    list-style-type: none;
+}
+.home .dec ul li i{
+    color:#fff;
+    background-color: rgb(193, 171, 132);
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px;
+    top: 2px;
+    text-align: center;
+}
+.home .dec ul li{
+    display: flex;
+    padding-top: 20px;
+}
+@media screen and (min-width: 768px) {
+    .header{
+        height: 100vh;
+    }
+    .home{
+        display: flex;
+        height: 100vh;
+    }
+    .navbar{
+        display: flex;
+    }
+    .header .navbar .nav ul{
+        display: flex;
+    }
+    .header .overlay{
+        height: 100vh;    
+    }
+    .review {
+        display: flex;
+        height: 70vh;
+    }
+    .menu .dishes .one ,.menu .dishes .two{
+        display: flex;
+    }
+    .menu .dishes ul li img{
+        width: 280px;
+    }
+    .menu .dishes ul li {
+        margin-top: 50px;
+    }
+    .map{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+    }
+    .footer.footer-main{
+        height: 70vh;
+    }
+    .footer .footer-main{
+        display: flex;
+    }
+}
+@media screen and (min-width:550px) {
+    .header .navbar .nav ul{
+        display: flex;
+    }
+}
+.review{
+    background-color:#f8f8f8;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    padding-top: 165px;
+}
+.review .rev ul li{
+    display: flex;
+}
+.review .rev ul li i{
+   color: rgb(193, 171, 132);
+   font-size: 1.5rem;
+}
+.review .image{
+    padding-top: 51px;
+}
+.review .rev ul {
+    padding-top: 45px;
+}
+.review .rev{
+    padding-right: 20px;
+    padding-left: 100px;
+}
+.review .image{
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+.review .rev ul li{
+    padding-top: 20px;
+}
+.review .rev ul li p{
+    padding-left: 18px;
+    font-size: 1.2rem;
+}
+.restaurant .photo{
+    background-image: url('shutterstock_280369721.jpg');
+    width: 100%;
+    height: 68vh;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.restaurant{
+    width: 100%;
+    height: 78vh;
+    background-color:#f8f8f8;
+}
+.menu .head h2{
+    font-size: 36px;
+    font-family: alegreya;
+    color: rgb(37, 48, 72);
+}
+.menu .head h3{
+    font-size: 28px;
+    font-family: Dancing Script;
+    color: rgb(193, 171, 132);
+}
+.menu{
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.menu .dishes ul .one li ,.menu .dishes ul .two li h4{
+    color: rgb(37, 48, 72);
+    font-size: 21px;
+}
+
+.menu .dishes ul .one li ,.menu .dishes ul .two li  p{
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-family: Alegreya Sans;
+}
+.menu .dishes ul .one li ,.menu .dishes ul .two li{
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+.menu .dishes ul{
+    list-style-type: none;
+    align-items: center;
+}
+.menu button{
+    padding: 15px 30px;
+    font-size: 16px;
+    box-sizing: 0px;
+    border-radius: 5px; 
+    background-color:#c1ab84 ;
+    color:#fff;
+    cursor: pointer ;
+    margin-top: 30px;
+    border-color: #c1ab84;
+}
+.map .det h2{
+    font-size: 36px;
+    font-family: alegreya;
+    color: rgb(37, 48, 72);
+}
+.map .det p{
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    padding-top: 20px;
+}
+.map .det ul {
+    list-style-type: none;
+    align-items: center;
+    padding-top: 20px;
+}
+.map{
+    background-color: #f8f8f8;
+    padding-top: 85px;
+}
+.map .det ul li i{
+     color:#fff;
+    background-color: rgb(193, 171, 132);
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px;
+    top: 2px;
+    text-align: center;
+}
+.map .det ul li{
+    padding-top: 20px;
+    display: flex;
+}
+.map .det ul li p{
+    list-style: none;
+    padding: 16px 0;
+    position: relative;
+    padding-left: 52px;
+}
+.map .det{
+    padding-left:20px ;
+    padding-right: 20px;
+}
+
+.map .position {
+    width: auto;
+    height: 100vh;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.footer .footer-main{
+    width: 100%;
+    background-color: #403d38;
+}
+.footer .footer-bottom{
+    width: 100%;
+    background-color: #353330;
+}
+.title{
+    text-transform: none;
+    font-size: 20px;
+    color: #fff;
+}
+.list li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.list li:last-child{
+    border-bottom: none;
+}
+
+.list{
+    padding-top: 40px;
+    list-style-type: none;
+}
+.list a{
+    color: rgb(150,150,150);
+}
+.ptext{
+    padding-bottom: 30px;
+   font-size: 16px;
+   color:rgb(150,150,150);
+}
+.paddingDiv{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.footer .footer-bottom{
+    text-align: center;
+}
+.footer .footer-bottom img{
+    padding-top: 50px;
+}
+.footer .footer-bottom .soshal span i{
+    color:#fff;
+    background-color:#403d38;
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px;
+    top: 2px;
+    text-align: center;
+}
+.footer .footer-bottom .soshal span i:hover{
+    background-color: rgb(110, 155, 234);
+}
+.footer .footer-bottom .soshal{
+    padding-bottom: 50px;
+}
